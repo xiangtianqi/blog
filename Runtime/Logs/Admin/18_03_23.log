@@ -1,0 +1,920 @@
+[ 2018-03-23T09:54:38+08:00 ] ::1 /blog/admin.php?m=Admin&c=links&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.1620s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\blog\Application\Admin\Controller\CommonController.class.php 第 10 行.
+SQL: SELECT * FROM `tpt_member` WHERE ( username = '%s' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\blog\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:54:41+08:00 ] ::1 /blog/admin.php/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:54:52+08:00 ] ::1 /blog/admin.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username='admin' AND password='21232f297a57a5a743894a0e4a801fc3' AND kouling='123456' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:54:52+08:00 ] ::1 /blog/admin.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:54:54+08:00 ] ::1 /blog/admin.php/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:54:58+08:00 ] ::1 /blog/admin.php/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0140s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:55:09+08:00 ] ::1 /blog/admin.php/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0120s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:55:11+08:00 ] ::1 /blog/admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:55:12+08:00 ] ::1 /blog/admin.php?m=Admin&c=banner&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant apic - assumed 'apic' F:\wamp\www\blog\Runtime\Cache\Admin\eb6373fba24276254f89b6302c1c17d5.php 第 69 行.
+NOTIC: [8] Use of undefined constant bpic - assumed 'bpic' F:\wamp\www\blog\Runtime\Cache\Admin\eb6373fba24276254f89b6302c1c17d5.php 第 95 行.
+NOTIC: [8] Use of undefined constant cpic - assumed 'cpic' F:\wamp\www\blog\Runtime\Cache\Admin\eb6373fba24276254f89b6302c1c17d5.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:55:18+08:00 ] ::1 /blog/admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:55:27+08:00 ] ::1 /blog/admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:55:28+08:00 ] ::1 /blog/admin.php/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T09:55:29+08:00 ] ::1 /blog/admin.php/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T10:32:12+08:00 ] ::1 /blog/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T10:32:15+08:00 ] ::1 /blog/admin.php/login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T10:32:18+08:00 ] ::1 /blog/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\blog\Application\Admin\Controller\CommonController.class.php 第 10 行.
+SQL: SELECT * FROM `tpt_member` WHERE ( username = '%s' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\blog\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T10:32:19+08:00 ] ::1 /blog/admin.php/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T14:43:27+08:00 ] ::1 /blog/admin.php?m=Admin&c=links&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\blog\Application\Admin\Controller\CommonController.class.php 第 10 行.
+SQL: SELECT * FROM `tpt_member` WHERE ( username = '%s' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\blog\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T14:43:32+08:00 ] ::1 /blog/admin.php/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T14:43:39+08:00 ] ::1 /blog/admin.php/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username='admin' AND password='21232f297a57a5a743894a0e4a801fc3' AND kouling='123456' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T14:43:39+08:00 ] ::1 /blog/admin.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T14:43:41+08:00 ] ::1 /blog/admin.php/category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T14:43:42+08:00 ] ::1 /blog/admin.php/category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid=0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T15:16:56+08:00 ] ::1 /blog/admin.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T15:16:57+08:00 ] ::1 /blog/admin.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T16:18:31+08:00 ] ::1 /blog/admin.php/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0130s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T16:18:32+08:00 ] ::1 /blog/admin.php/article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( type = 1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant keywords - assumed 'keywords' F:\wamp\www\blog\Runtime\Cache\Admin\9759d94993c289ada096e85747e90043.php 第 140 行.
+NOTIC: [8] Undefined variable: a F:\wamp\www\blog\Runtime\Cache\Admin\9759d94993c289ada096e85747e90043.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T16:20:46+08:00 ] ::1 /blog/admin.php/article/doadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate F:\wamp\www\blog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\wamp\www\blog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tpt_article` (`title`,`tid`,`author`,`source`,`open`,`description`,`content`,`keywords`,`time`) VALUES ('使用workerman简单的多人聊天室','8','workman','https://blog.csdn.net/u014520745/article/details/52093279','1','使用workerman简单的多人聊天室','      &lt;ol&gt;&lt;li&gt;&amp;lt;?php&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;/**&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;*&amp;nbsp;Created&amp;nbsp;by&amp;nbsp;PhpStorm.&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;*&amp;nbsp;User:&amp;nbsp;raid&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;*&amp;nbsp;Date:&amp;nbsp;2016/8/2&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;*&amp;nbsp;Time:&amp;nbsp;11:03&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;*/&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;use&amp;nbsp;Workerman\\Worker;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;require_once&amp;nbsp;\'../Workerman/Autoloader.php\';&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;$global_uid&amp;nbsp;=&amp;nbsp;0;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;//&amp;nbsp;当客户端连上来时分配uid，并保存连接，并通知所有客户端&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;function&amp;nbsp;handle_connection($connection)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;global&amp;nbsp;$text_worker,&amp;nbsp;$global_uid;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;为这个链接分配一个uid&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$connection-&amp;gt;uid&amp;nbsp;=&amp;nbsp;++$global_uid;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;foreach&amp;nbsp;($text_worker-&amp;gt;connections&amp;nbsp;as&amp;nbsp;$conn)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$conn-&amp;gt;send(&quot;user[{$connection-&amp;gt;uid}]&amp;nbsp;online&quot;);&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;}&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;//&amp;nbsp;当客户端发送消息过来时，转发给所有人&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;function&amp;nbsp;handle_message($connection,&amp;nbsp;$data)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;global&amp;nbsp;$text_worker;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;foreach&amp;nbsp;($text_worker-&amp;gt;connections&amp;nbsp;as&amp;nbsp;$conn)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$conn-&amp;gt;send(&quot;user[{$connection-&amp;gt;uid}]&amp;nbsp;said:&amp;nbsp;$data&quot;);&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;}&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;//&amp;nbsp;当客户端断开时，广播给所有客户端&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;function&amp;nbsp;handle_close($connection)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;global&amp;nbsp;$text_worker;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;foreach&amp;nbsp;($text_worker-&amp;gt;connections&amp;nbsp;as&amp;nbsp;$conn)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$conn-&amp;gt;send(&quot;user[{$connection-&amp;gt;uid}]&amp;nbsp;logout&quot;);&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;}&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;$text_worker&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Worker(&quot;websocket://0.0.0.0:2347&quot;);&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;$text_worker-&amp;gt;count&amp;nbsp;=&amp;nbsp;1;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;$text_worker-&amp;gt;onConnect&amp;nbsp;=&amp;nbsp;\'handle_connection\';&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;$text_worker-&amp;gt;onMessage&amp;nbsp;=&amp;nbsp;\'handle_message\';&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;$text_worker-&amp;gt;onClose&amp;nbsp;=&amp;nbsp;\'handle_close\';&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;Worker::runAll();&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;
+      &lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;HTML页面展示：&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;lt;!DOCTYPE&amp;nbsp;html&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;html&amp;nbsp;lang=&quot;en&quot;&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;head&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;meta&amp;nbsp;charset=&quot;UTF-8&quot;&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;title&amp;gt;Simple&amp;nbsp;Chat&amp;lt;/title&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;/head&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;body&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;h1&amp;gt;Simple&amp;nbsp;Chat&amp;lt;/h1&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;input&amp;nbsp;type=&quot;text&quot;&amp;nbsp;id=&quot;msg&quot;&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;button&amp;nbsp;type=&quot;button&quot;&amp;nbsp;id=&quot;send&quot;&amp;gt;send&amp;lt;/button&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;div&amp;nbsp;id=&quot;content&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;/body&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;script&amp;nbsp;type=&quot;text/javascript&quot;&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.onload&amp;nbsp;=&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;ws&amp;nbsp;=&amp;nbsp;new&amp;nbsp;WebSocket(&quot;ws://127.0.0.1:2347&quot;);&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;document.getElementById(&quot;send&quot;).onclick&amp;nbsp;=&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;msg&amp;nbsp;=&amp;nbsp;document.getElementById(&quot;msg&quot;).value;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ws.send(msg);&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ws.onopen&amp;nbsp;=&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;console.log(&quot;连接成功&quot;);&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;//&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ws.send(\'raid\');&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ws.onmessage&amp;nbsp;=&amp;nbsp;function&amp;nbsp;(e)&amp;nbsp;{&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;document.getElementById(&quot;content&quot;).innerHTML&amp;nbsp;+=&amp;nbsp;&quot;&amp;lt;h2&amp;gt;&quot;&amp;nbsp;+&amp;nbsp;e.data&amp;nbsp;+&amp;nbsp;&quot;&amp;lt;/h2&amp;gt;&quot;;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;/script&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;lt;/html&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','','1521793246') [ RunTime:0.0930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T16:20:47+08:00 ] ::1 /blog/admin.php/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0190s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-03-23T16:21:07+08:00 ] ::1 /blog/admin.php/article/delete/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0430s ]
+SQL: DELETE FROM `tpt_article` WHERE `id` = 9 [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-23T16:21:08+08:00 ] ::1 /blog/admin.php/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0930s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0140s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 70 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 74 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' F:\wamp\www\blog\Runtime\Cache\Admin\fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
