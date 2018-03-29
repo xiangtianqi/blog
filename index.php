@@ -32,5 +32,5 @@ define('RUNTIME_PATH','./Runtime/');
 
 // ����ThinkPHP����ļ�
 require './ThinkPHP/ThinkPHP.php';
-
+//zhushi
 // ��^_^ ���治��Ҫ�κδ����� ������˼�
