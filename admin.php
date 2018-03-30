@@ -9,28 +9,25 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-// Ó¦ÓÃÈë¿ÚÎÄ¼ş
-
-// °²×°Íê³ÉºóÇëÉ¾³ı´Ë´úÂë
+//æ£€æŸ¥æ˜¯å¦å®‰è£…
 if(!is_file('./Application/Install/Data/install.lock')){
     header('Location: ./install.php');
     exit;
 }
 
-// ¼ì²âPHP»·¾³
+// åˆ¤æ–­phpç‰ˆæœ¬
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
-// ¿ªÆôµ÷ÊÔÄ£Ê½ ½¨Òé¿ª·¢½×¶Î¿ªÆô ²¿Êğ½×¶Î×¢ÊÍ»òÕßÉèÎªfalse
+// å¼€å¯è°ƒè¯•æ¨¡å¼
 define('APP_DEBUG',True);
 
-// ¶¨ÒåÓ¦ÓÃÄ¿Â¼
+//å®šä¹‰æ¨¡å—è·¯å¾„
 define('APP_PATH','./Application/');
 
 define('BIND_MODULE', 'Admin');
-// ¶¨Òå»º´æÄ¿Â¼
+//ç¼“å­˜ç›®å½•
 define('RUNTIME_PATH','./Runtime/');
 
-// ÒıÈëThinkPHPÈë¿ÚÎÄ¼ş
+//å¼•ç”¨æ¡†æ¶
 require './ThinkPHP/ThinkPHP.php';
 
-// Ç×^_^ ºóÃæ²»ĞèÒªÈÎºÎ´úÂëÁË ¾ÍÊÇÈç´Ë¼òµ¥
